@@ -14,6 +14,8 @@
                 <div class="form-group">
                     <label for="titulo">Título:</label>
                     <input type="text" name="titulo" class="form-control" value="${livro.titulo}" />
+                    <label for="titulo">isbn:</label>
+                    <input type="text" name="isbn" class="form-control" value="${livro.isbn}" />
                 </div>
                 <br />
                 <a href="/livro/list" class="btn btn-primary" >Voltar</a>
